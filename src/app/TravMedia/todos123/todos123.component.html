@@ -1,0 +1,49 @@
+                    <!-- Stored Items -->
+<!-- <div [ngClass]="setClasses()" [ngStyle]="setStyles()">
+    <input type="checkbox" name="cbk" id="chk" (change)="toggleCls(inpt)">
+    {{inpt.id}}  
+    {{inpt.title}}  
+    {{inpt.name}}  
+    {{inpt.completed}}<br>
+    {{fres}}
+</div> -->
+
+  
+<div [ngClass]="setClasses()" [ngStyle]="setStyles()" >
+    
+<div class="container">
+    <table class="table table-dark">
+      <thead>
+        <tr>
+        </tr>
+      </thead>
+      <tbody>
+                <tr>
+                <td>
+                  <input type="checkbox" name="" id="ck" (change)="toggleCls(inpt)">
+                </td>
+                <td>{{inpt.id}}</td>
+                <td>{{inpt.userId}}</td>
+                <td>{{inpt.title}}</td>
+                <td> <button (click)="deleteTodo(inpt)" class="del">X</button></td>
+                </tr>
+        </tbody>
+    </table>
+  </div>
+</div>
+ 
+    
+       
+    
+       
+    
+
+
+        
+
+        
+        
+       
+
+
+

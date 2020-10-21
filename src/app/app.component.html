@@ -1,0 +1,57 @@
+
+<app-headers></app-headers>
+
+<h1>Working</h1>
+<div> 
+    <button class="btn btn-primary m-4" routerLink="">HubPage</button>
+    <button class="btn btn-primary m-4" routerLink="home">HomePage</button>
+    <button class="btn btn-primary m-4" routerLink="emp">Employees</button>
+    <button class="btn btn-primary m-4" routerLink="dept">DepartMents</button>
+    
+    <button class="btn btn-primary m-4" routerLink="eager">I am Eager</button>
+    
+    <button class="btn btn-primary m-4" routerLink="lazy">I am Lazy</button>
+    
+    <button class="btn btn-primary m-4" routerLink="lazy/demo">I am Lazy1</button>
+    
+    <button class="btn btn-primary m-4" routerLink="trash">Annonymous</button>
+    <button class="btn btn-primary m-4" routerLink="Junk">NotFound</button>
+    <button class="btn btn-danger" routerLink='dc'>Danger</button>
+    <button class="btn btn-danger" routerLink='sc'>Success</button>
+
+    <br>
+    
+<router-outlet></router-outlet>
+</div>
+
+
+
+<hr>
+
+<a routerLink="lazy">I am Lazy</a>
+<hr>
+
+<a routerLink="lazy/demo">I am Demo</a>
+
+<router-outlet></router-outlet>
+
+<hr>
+<a routerLink="eager">I am eager</a>
+
+
+
+<h1 showalert color="pink">Text of </h1>
+
+
+
+<div>
+    <ng-container *ngComponentOutlet="alert" ></ng-container> 
+    <input type="button" value="ToggleColors" (click)="toggleSwitch()" /></div>
+
+    
+    <app-media-folder></app-media-folder>
+    <app-final-todos></app-final-todos>
+
+
+
+

@@ -1,0 +1,46 @@
+<p>employees works!</p>
+
+
+<table >
+    <thead>
+        <tr>
+    <th>Id:</th>
+    <th>Name:</th>
+    <th>Salary:</th>
+  
+</tr>
+</thead>
+<tbody *ngFor="let femp of emps1">
+    <tr>
+        <td>{{femp.id}}</td>
+    <td>{{femp.name}}</td>
+    <td>{{femp.salary}}</td>
+    
+</tr>
+</tbody>
+
+</table>
+
+<table >
+    <thead>
+        <tr>
+    <th>Id:</th>
+    <th>Name:</th>
+    
+</tr>
+</thead>
+<tbody *ngFor="let femp1 of dept">
+    <tr>
+        <td>{{femp1.departmentId}}</td>
+    <td>{{femp1.departmentName}}</td>
+  
+</tr>
+</tbody>
+
+</table>
+
+
+
+
+
+

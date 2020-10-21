@@ -1,0 +1,6 @@
+<app-add-todos (addTodo)="addTodos($event)"></app-add-todos>
+<app-todos123 *ngFor="let otpt of res1" 
+              [inpt]="otpt"
+              (deleteTodos)="deleteItms($event)"></app-todos123>
+
+

@@ -1,0 +1,16 @@
+.number1{
+    /* background-color: crimson; */
+    text-decoration: line-through;
+    margin: 1em;
+}
+#ck{
+    float: left;
+}
+button{
+    float: right;
+}
+table, th,td{
+    padding: 1em;
+
+}
+
